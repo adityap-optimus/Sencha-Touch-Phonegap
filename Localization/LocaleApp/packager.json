@@ -1,0 +1,31 @@
+{
+	
+	"applicationName":"SenchaApp1",	
+	"applicationId":"com.optimus.mobile.sencha",
+	"versionString":"1.0",	
+	"versionCode":"1",
+	"iconName": "resources/icons/Icon.png",	
+	"inputPath":"/Dev/SenchaWorkspace/LocalApp/st/mvc",	
+	"outputPath":"/Dev/SenchaWorkspace/LocalApp/built",	
+	"configuration":"Debug",	
+	"platform":"Android",	
+	"deviceType":"Universal",	
+	"certificatePath":"iCompassKeystore.file",	
+	"certificateAlias":"icompassalias",
+	"sdkPath":"/Dev/Tools/x86/Android/android-sdk-windows",	
+	"androidAPILevel":"8",	
+	"permissions":[
+					"INTERNET",
+					"ACCESS_NETWORK_STATE",
+					"CAMERA",
+    				"VIBRATE",
+    				"ACCESS_FINE_LOCATION",
+    				"ACCESS_COARSE_LOCATION",
+    				"CALL_PHONE"],	
+	"orientations": [
+		"portrait",
+		"landscapeLeft",
+		"landscapeRight",
+		"portraitUpsideDown"
+	]
+}
