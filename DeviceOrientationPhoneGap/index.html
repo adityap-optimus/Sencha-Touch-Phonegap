@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=320; user-scalable=no" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>PhoneGap</title>
+<script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script>
+
+<script type="text/javascript">
+	function doOnOrientationChange() {
+		switch (window.orientation) {
+		case -90:
+		case 90:
+			alert('landscape');
+			break;
+		default:
+			alert('portrait');
+			break;
+		}
+	}
+
+	//window.onorientationchange = function() {
+	//	doOnOrientationChange();
+	//};
+
+	// Initial execution
+	//doOnOrientationChange();
+</script>
+</head>
+<body onload="init();">
+
+	<h2>Orientation Test</h2>
+	<button onclick="doOnOrientationChange();">Get Orientation</button>
+	<div id="status"></div>
+
+</body>
+</html>
